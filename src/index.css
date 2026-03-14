@@ -1,0 +1,73 @@
+/* General Setup */
+.page-container {
+  font-family: sans-serif;
+  background-color: #fcfcfc;
+  color: #444;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+.logo { font-weight: bold; font-size: 1.2rem; }
+.links span { margin-left: 20px; cursor: pointer; color: #666; }
+
+/* Main Layout */
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 30px;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+/* Hero (Luffy) Styling */
+.hero-section {
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  color: #b89130;
+  font-weight: 300;
+}
+.hero-section p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+/* Card (Zoro/Team) Styling */
+.card-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dark-theme {
+  background-color: #1a1d20;
+  color: white;
+}
+.dark-theme h1 { color: #b89130; }
+.dark-theme p { color: #aaa; }
+
+/* Buttons & Images */
+.btn-outline {
+  background: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.image-container img {
+  height: 100px;
+  width: auto;
+}
