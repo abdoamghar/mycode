@@ -24,7 +24,7 @@ return (
 
 
 
-  <BrowserRouter>
+  <BrowserRouter basename="/mycode">
   <Routes>
     <Route path="/" element={<Nav />}>
     <Route path="adduser/:id" element={<Adduser data={data} setdata={setData}/>} />
