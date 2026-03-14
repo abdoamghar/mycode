@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: "/mycode/",
   test: {
     globals: true,           // Allows using 'describe', 'it', 'expect' without importing them
     environment: 'jsdom',    // Simulates a browser environment
